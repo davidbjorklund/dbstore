@@ -1,0 +1,23 @@
+
+.slide {
+    margin: 40px 0 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin: 0 4px;
+    background: rgba(255,255,255,0.6);
+    cursor: pointer;
+}
+
+.circle.current {
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    background: var(--white);
+}

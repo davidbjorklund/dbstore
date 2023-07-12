@@ -1,0 +1,13 @@
+#header {
+    max-width: 1560px;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    align-items: center;
+}
+
+.links > .link {
+    margin: 0 30px;
+}
