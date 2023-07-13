@@ -43,7 +43,7 @@ a {
 a.link {
   color: var(--darkblue);
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 a.alt-link {
@@ -62,7 +62,7 @@ a.button {
   text-align: center;
   display: block;
   width: fit-content;
-  padding: 15px 22px;
+  padding: 15px 22px 13px;
   border-radius: 8px;
   color: var(--darkblue);
   font-size: 18px;
@@ -76,16 +76,16 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: 34px;
+  font-size: 29px;
 }
 
 h3 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 24px;
 }
 
 h4 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 18px;
 }
 

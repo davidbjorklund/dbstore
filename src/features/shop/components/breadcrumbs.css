@@ -1,0 +1,13 @@
+.breadcrumbs {
+    margin: 40px 0 40px;
+}
+
+.breadcrumbs > p > a, .breadcrumbs > p > span {
+    margin-right: 15px;
+    font-weight: 600;
+    color: var(--gray);
+}
+
+.breadcrumbs > p > .active {
+    color: var(--darkgray);
+}
