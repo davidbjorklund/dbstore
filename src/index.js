@@ -9,6 +9,7 @@ import Error from './features/error/';
 import Home from './features/home/';
 import Shop from './features/shop/';
 import Root from './features/root/';
+import Item from './features/item/';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,11 @@ const router = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop />,
-      }
+      },
+      {
+        path: "/item/:id",
+        element: <Item />,
+      },
     ]
 
   },

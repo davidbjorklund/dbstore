@@ -1,0 +1,30 @@
+.page {
+    display: flex;
+    gap: 30px;
+}
+
+#filter {
+    width: 300px;
+    border: 1px solid var(--sectiongray);
+    border-radius: 10px;
+    height: fit-content;
+}
+
+#results {
+    flex: 1;
+    margin: 20px 0;
+}
+
+p {
+    color: var(--blue);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-text {
+    margin-top: 15px;
+}
+
+.card-text > p {
+    margin-top: 10px;
+}

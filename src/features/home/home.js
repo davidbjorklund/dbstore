@@ -78,34 +78,45 @@ const Home = (props) => {
             <section id="picks">
                 <h2>Curated picks</h2>
                 <div className="list-row">
-                    <div className="card card-small">
-                        <Link to="/shop" className="button">Best Seller</Link>
+                    <div className="db-3 gap-20">
+                        <div className="card card-small">
+                            <Link to="/shop" className="button">Best Seller</Link>
+                        </div>
                     </div>
-                    <div className="card card-small">
-                        <Link to="/shop" className="button">Shop Men</Link>
-                        
+                    <div className="db-3 gap-20">
+                        <div className="card card-small">
+                            <Link to="/shop" className="button">Shop Men</Link>
+                        </div>
                     </div>
-                    <div className="card card-small">
-                        <Link to="/shop" className="button">Shop Women</Link>
-                        
+                    <div className="db-3 gap-20">
+                        <div className="card card-small">
+                            <Link to="/shop" className="button">Shop Women</Link>
+                        </div>
                     </div>
-                    <div className="card card-small">
-                        <Link to="/shop" className="button">Shop Casual</Link>
-                        
+                    <div className="db-3 gap-20">
+                        <div className="card card-small">
+                            <Link to="/shop" className="button">Shop Casual</Link>
+                        </div>
                     </div>
                 </div>
             </section>
             <section id="featured">
                 <h2>Featured products</h2>
                 <div className="list-row">
-                    <div className="card card-large">
+                    <div className="db-4 gap-20">
+                        <div className="card card-large">
 
+                        </div>
                     </div>
-                    <div className="card card-large">
-                        
+                    <div className="db-4 gap-20">
+                        <div className="card card-large">
+
+                        </div>
                     </div>
-                    <div className="card card-large">
-                        
+                    <div className="db-4 gap-20">
+                        <div className="card card-large">
+
+                        </div>
                     </div>
                 </div>
             </section>

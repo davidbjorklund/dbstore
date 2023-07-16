@@ -1,3 +1,3 @@
-import Breadcrumbs from './breadcrumbs.js';
+import Filter from './filter.js';
 
-export { Breadcrumbs };
+export { Filter };

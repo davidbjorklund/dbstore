@@ -1,6 +1,7 @@
 :root {
   --white: #FFFFFF;
   --darkblue: #1D242D;
+  --blue: #3D4C5E;
   --lightgray: #F9FbFc;
   --sectiongray: #EAEEF2;
   --gray: #929CAB;
@@ -99,3 +100,136 @@ h5 {
 h1.light, h2.light, h3.light, h4.light {
   color: var(--white);
 } 
+
+.loading {
+  color: transparent;
+  background: var(--sectiongray);
+}
+
+
+.split-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.list-row {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.db-3 {
+  flex-basis: 25%;
+}
+
+.db-3.gap-10 {
+  margin: 0 auto;
+  flex-basis: calc(25% - 10px);
+}
+
+.db-3.gap-20 {
+  margin: 0 auto;
+  flex-basis: calc(25% - 20px);
+}
+
+.db-4 {
+  flex-basis: 33.333333%;
+}
+
+.db-4.gap-10 {
+  margin: 0 auto;
+  flex-basis: calc(33.333333% - 10px);
+}
+
+.db-4.gap-20 {
+  margin: 0 auto;
+  flex-basis: calc(33.333333% - 20px);
+}
+
+.db-6 {
+  flex-basis: 50%;
+}
+
+.db-6.gap-40 {
+  margin: 0 auto;
+  flex-basis: calc(50% - 40px);
+}
+
+.db-12 {
+  flex-basis: 100%;
+}
+
+hr {
+  margin: 20px 0;
+  border-color: var(--sectiongray);
+}
+
+.card {
+  flex: 1;
+  background: var(--sectiongray);
+  border-radius: 15px;
+  position: relative;
+}
+
+.card-extra-small {
+  height: 150px;
+}
+
+.card-small {
+  height: 300px;
+}
+
+.card-large {
+  height: 500px;
+}
+
+.w-30 {
+  min-width: 30%;
+}
+
+.g-20 {
+  gap: 20px;
+}
+
+.jc-left {
+  justify-content: left;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-spaceb {
+  justify-content: space-between;
+}
+
+.jc-spacea {
+  justify-content: space-around;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}

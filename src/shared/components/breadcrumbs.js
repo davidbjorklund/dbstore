@@ -11,7 +11,7 @@ const Breadcrumbs = ({path}) => {
                 {
                     path.map((x,i)=>{
                         let cn = x.active?"active":"";
-                        return <>{i != 0 && <span> &gt; </span>}<Link to={x.link} className={cn}>{x.name}</Link></>
+                        return <Link key={2*i+1} to={x.link} className={cn}>{i !== 0 && <span> &gt; </span>}{x.name}</Link>
                     })
                 }
                 </p>

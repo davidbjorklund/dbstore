@@ -1,0 +1,44 @@
+.inner > p {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.dir {
+    margin: 10px 15px;
+}
+
+.split {
+    margin: 0 15px;
+    border-bottom: 1px solid var(--sectiongray);
+}
+
+.inner {
+    padding: 12px 15px 10px;
+    transition: color 0.2s ease;
+    color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dir.open > .inner {
+    color: var(--sectiongray);
+    background: currentColor;
+}
+
+.subdir {
+    padding: 10px 15px 0;
+}
+
+.checkbox {
+    padding: 5px 15px 0;
+
+} 
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.subdir .checkbox {
+    padding: 5px 25px;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, ScrollRestoration } from 'react-router-dom';
 
 import Header from '../../shared/layout/header';
 import Footer from '../../shared/layout/footer';
@@ -9,6 +9,7 @@ const Root = (props) => {
 
     return (
         <>
+            <ScrollRestoration />
             <Header />
             <div id="main">
                 { <Outlet />  || <h1>ABC</h1> }

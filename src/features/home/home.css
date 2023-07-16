@@ -32,11 +32,6 @@ p {
     font-size: 16px;
 }
 
-.split-row {
-    display: flex;
-    justify-content: space-between;
-}
-
 .thin-header {
     max-width: 350px;
 }
@@ -53,12 +48,6 @@ p {
     width: 3px;
 }
 
-.list-row {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-}
-
 .list-item {
     width: 50px;
     height: 50px;
@@ -66,21 +55,6 @@ p {
     background: var(--sectiongray);
 }
 
-.card {
-    flex: 1;
-    margin-right: 20px;
-    background: var(--sectiongray);
-    border-radius: 10px;
-    position: relative;
-}
-
-.card-small {
-    height: 300px;
-}
-
-.card-large {
-    height: 500px;
-}
 
 .card:last-child {
     margin-right: 0;
