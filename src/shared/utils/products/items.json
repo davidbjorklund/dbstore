@@ -1,0 +1,128 @@
+{
+    "ga-2100-1a": {
+        "id": "ga-2100-1a",
+        "name": "G-Shock GA-2100-1A",
+        "price": 1498,
+        "gender": "men",
+        "brand": "G-Shock",
+        "category": "durability",
+        "images": [
+            "ga-2100-1a/GA-2100-1A1ER.png",
+            "ga-2100-1a/desktop_GA-2100-1A1ER_01.jpg",
+            "ga-2100-1a/desktop_GA-2100-1A1ER_03.jpg",
+            "ga-2100-1a/desktop_GA-2100-1A1ER_04.jpg"
+        ]
+    },
+    "ga-2100-2a": {
+        "id": "ga-2100-2a",
+        "name": "G-Shock GA-2100-2A",
+        "price": 1898,
+        "gender": "men",
+        "brand": "G-Shock",
+        "category": "durability",
+        "images": [
+            "ga-2100-2a/GA-2100BWP-2AER_OR01.png",
+            "ga-2100-2a/GA-2100BWP-2AER_OR02_wristshot.jpg",
+            "ga-2100-2a/GA-2100BWP-2AER_OR09_Bandview.jpg",
+            "ga-2100-2a/GA-2100BWP-2AER_OR10_package.jpg"
+        ]
+    },
+    "ga-2100-8a": {
+        "id": "ga-2100-8a",
+        "name": "G-Shock GA-2100-8A",
+        "price": 1798,
+        "gender": "men",
+        "brand": "G-Shock",
+        "category": "durability",
+        "images": [
+            "ga-2100-8a/GA-2100FF-8AER_OR01.png",
+            "ga-2100-8a/GA-2100FF-8AER_OR03_sideview_right.jpg",
+            "ga-2100-8a/GA-2100FF-8AER_OR14_beautyshot2.jpg",
+            "ga-2100-8a/GA-2100FF-8AER_OR18_caseback.jpg"
+        ]
+    },
+    "gma-s2100-1a": {
+        "id": "gma-s2100-1a",
+        "name": "G-Shock GMA-S2100-1A",
+        "price": 1498,
+        "gender": "women",
+        "brand": "G-Shock",
+        "category": "durability",
+        "images": [
+            "gma-s2100-1a/GMA-S2100-1AER_OR01.png",
+            "gma-s2100-1a/desktop_GMA-S2100_Desktop_02.jpg",
+            "gma-s2100-1a/GMA-S2100-1AER_OR13_beautyshot1.jpg",
+            "gma-s2100-1a/desktop_GMA-S2100_Desktop_03.jpg"
+        ]
+    },
+    "gma-s2100-4a": {
+        "id": "gma-s2100-4a",
+        "name": "G-Shock GMA-S2100-4A",
+        "price": 1498,
+        "gender": "women",
+        "brand": "G-Shock",
+        "category": "durability",
+        "images": [
+            "gma-s2100-4a/GMA-S2100-4AER_OR01.png",
+            "gma-s2100-4a/GMA-S2100-4AER_OR02_wristshot.jpg",
+            "gma-s2100-4a/GMA-S2100-4AER_OR13_beautyshot1.jpg",
+            "gma-s2100-4a/GMA-S2100-4AER_OR03_sideview_right.jpg"
+        ]
+    },
+    "gma-s2100-7a": {
+        "id": "gma-s2100-7a",
+        "name": "G-Shock GMA-S2100-7A",
+        "price": 1798,
+        "gender": "women",
+        "brand": "G-Shock",
+        "category": "durability",
+        "images": [
+            "gma-s2100-7a/GMA-S2100SK-7AER_OR01.png",
+            "gma-s2100-7a/GMA-S2100SK-7AER_OR14_beautyshot2.jpg",
+            "gma-s2100-7a/GMA-S2100SK-7AER_OR13_beautyshot1.jpg",
+            "gma-s2100-7a/GMA-S2100SK-7AER_OR09_Bandview.jpg"
+        ]
+    },
+    "sje089": {
+        "id": "sje089",
+        "name": "Seiko SJE089",
+        "price": 36500,
+        "gender": "men",
+        "brand": "Seiko",
+        "category": "classic",
+        "images": [
+            "sje089/SJE089.png",
+            "sje089/SJE089_01.jpg",
+            "sje089/SJE089_02.jpg",
+            "sje089/SJE089_03.jpg"
+        ]
+    },
+    "sje091": {
+        "id": "sje091",
+        "name": "Seiko SJE091",
+        "price": 36500,
+        "gender": "men",
+        "brand": "Seiko",
+        "category": "classic",
+        "images": [
+            "sje091/SJE091.png",
+            "sje091/SJE091_01.jpg",
+            "sje091/SJE091_02.jpg",
+            "sje091/SJE091_03.jpg"
+        ]
+    },
+    "spb389": {
+        "id": "spb389",
+        "name": "Seiko SPB389",
+        "price": 19500,
+        "gender": "men",
+        "brand": "Seiko",
+        "category": "classic",
+        "images": [
+            "spb389/SPB389.png",
+            "spb389/SPB389_01.png",
+            "spb389/SPB389_02.png",
+            "spb389/SPB389_03.png"
+        ]
+    }
+}

@@ -5,49 +5,55 @@ export default [
         children: [
             {
                 type: "subdir",
-                name: "Woman",
+                name: "Women",
+                link: "/shop/women",
                 children: [
                     {
                         type: "checkbox",
-                        name: "Tops",
-                        items: 37,
-                        checked: false,
-                    },
-                    {
-                        type: "checkbox",
-                        name: "Jackets",
-                        items: 22,
-                        checked: false,
-                    },
-                    {
-                        type: "checkbox",
-                        name: "Sweaters",
-                        items: 31,
-                        checked: false,
+                        name: "durability",
+                        items: 3,
+                        checked: true,
                     },
                 ]
             },
             {
                 type: "subdir",
-                name: "Man",
-            },
-            {
-                type: "subdir",
-                name: "Kids",
-            },
-            {
-                type: "subdir",
-                name: "Sporty",
-            },
-            {
-                type: "subdir",
-                name: "Casual",
-            },
+                name: "Men",
+                link: "/shop/men",
+                children: [
+                    {
+                        type: "checkbox",
+                        name: "durability",
+                        items: 3,
+                        checked: true,
+                    },
+                    {
+                        type: "checkbox",
+                        name: "classic",
+                        items: 3,
+                        checked: true,
+                    }
+                ]
+            }
         ]
     },
     {
         type: "dir",
         name: "Brands",
+        children: [
+            {
+                type: "checkbox",
+                name: "G-Shock",
+                items: 6,
+                checked: true,
+            },
+            {
+                type: "checkbox",
+                name: "Seiko",
+                items: 3,
+                checked: true,
+            }
+        ]
     },
     {
         type: "dir",

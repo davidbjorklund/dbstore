@@ -11,9 +11,8 @@ const Header = (props) => {
             </div>
             <div className="links">
                 <Link to={"/shop"} className="link">Shop</Link>
-                <Link to={"/shop"} className="link">Most wanted</Link>
-                <Link to={"/shop"} className="link">New arrival</Link>
-                <Link to={"/shop"} className="link">Brands</Link>
+                <Link to={"/shop/most-wanted"} className="link">Most wanted</Link>
+                <Link to={"/shop/brands"} className="link">Brands</Link>
             </div>
             <div>
                 <Link to={"/profile"} className="link">Profile</Link>

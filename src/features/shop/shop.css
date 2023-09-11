@@ -21,6 +21,10 @@ p {
     font-size: 18px;
 }
 
+.cap {
+    text-transform: capitalize;
+}
+
 .card-text {
     margin-top: 15px;
 }

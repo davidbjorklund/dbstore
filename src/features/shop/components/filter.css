@@ -4,6 +4,15 @@
     font-size: 18px;
 }
 
+.right-icon {
+    width: 18px;
+    height: 18px;
+}
+.right-icon > img {
+    height: 100%;
+    width: 100%;
+}
+
 .dir {
     margin: 10px 15px;
 }
@@ -14,14 +23,21 @@
 }
 
 .inner {
+    display: flex;
     padding: 12px 15px 10px;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
     transition: color 0.2s ease;
     color: transparent;
     cursor: pointer;
     border-radius: 5px;
+    text-transform: capitalize;
 }
 
-.dir.open > .inner {
+.dir.open > .inner, 
+.subdir.active > .inner, 
+.subdir.active > a > .inner {
     color: var(--sectiongray);
     background: currentColor;
 }

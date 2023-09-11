@@ -1,3 +1,3 @@
-import Shop from './shop.js';
+import { Shop } from './shop.js';
 
-export default Shop;
+export { Shop };
