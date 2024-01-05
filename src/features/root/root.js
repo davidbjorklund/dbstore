@@ -33,8 +33,7 @@ const Root = (props) => {
                     navigate("/dbstore/cart");
                     break;
                 default:
-                    setSearchParams(s => s);
-                    navigate("/dbstore/shop");
+                    break;
             }
         }
     }, [])
