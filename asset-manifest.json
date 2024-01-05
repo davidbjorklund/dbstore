@@ -1,9 +1,9 @@
 {
   "main.css": "/dbstore/static/css/main.8763cc04.chunk.css",
-  "main.js": "/dbstore/static/js/main.3632439d.chunk.js",
-  "main.js.map": "/dbstore/static/js/main.3632439d.chunk.js.map",
-  "static/js/1.f1ec986a.chunk.js": "/dbstore/static/js/1.f1ec986a.chunk.js",
-  "static/js/1.f1ec986a.chunk.js.map": "/dbstore/static/js/1.f1ec986a.chunk.js.map",
+  "main.js": "/dbstore/static/js/main.58a6e04e.chunk.js",
+  "main.js.map": "/dbstore/static/js/main.58a6e04e.chunk.js.map",
+  "static/js/1.a12d26aa.chunk.js": "/dbstore/static/js/1.a12d26aa.chunk.js",
+  "static/js/1.a12d26aa.chunk.js.map": "/dbstore/static/js/1.a12d26aa.chunk.js.map",
   "runtime~main.js": "/dbstore/static/js/runtime~main.951ff60a.js",
   "runtime~main.js.map": "/dbstore/static/js/runtime~main.951ff60a.js.map",
   "static/media/angle-right-grey.svg": "/dbstore/static/media/angle-right-grey.614b5b48.svg",
@@ -147,6 +147,6 @@
   "static/media/womens-watches.png": "/dbstore/static/media/womens-watches.8b5e41d9.png",
   "static/css/main.8763cc04.chunk.css.map": "/dbstore/static/css/main.8763cc04.chunk.css.map",
   "index.html": "/dbstore/index.html",
-  "precache-manifest.320071513aa0e141fed46be60146275d.js": "/dbstore/precache-manifest.320071513aa0e141fed46be60146275d.js",
+  "precache-manifest.2d5392dd1e686a4864c80384d943148e.js": "/dbstore/precache-manifest.2d5392dd1e686a4864c80384d943148e.js",
   "service-worker.js": "/dbstore/service-worker.js"
 }
