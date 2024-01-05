@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3b8a07df851f91eca737",
+    "revision": "c01a64d6980bc457353a",
     "url": "/dbstore/static/css/main.8763cc04.chunk.css"
   },
   {
-    "revision": "3b8a07df851f91eca737",
-    "url": "/dbstore/static/js/main.3b8a07df.chunk.js"
+    "revision": "c01a64d6980bc457353a",
+    "url": "/dbstore/static/js/main.c01a64d6.chunk.js"
   },
   {
     "revision": "a12d26aa10f569af09be",
@@ -572,7 +572,7 @@ self.__precacheManifest = [
     "url": "/dbstore/static/media/womens-watches.8b5e41d9.png"
   },
   {
-    "revision": "848d85a15633235ad3c032bdc694b51a",
+    "revision": "dde9aba018a2a86839e338cb460949e8",
     "url": "/dbstore/index.html"
   }
 ];
