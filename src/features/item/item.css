@@ -1,0 +1,13 @@
+@media (max-width: 1040px){
+    .product-view {
+        flex-wrap: wrap-reverse;
+    }
+    .product-view .db-6 {
+        width: 100%;
+        flex-basis: 100%;
+    }
+    #recommended .db-4 {
+        min-width: 300px;
+        max-width: 300px;
+    }
+}

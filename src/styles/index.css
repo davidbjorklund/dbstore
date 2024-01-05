@@ -7,6 +7,8 @@
   --gray: #929CAB;
   --darkgray: #404D5C;
   --browngray: #868686;
+  --red: #F92626;
+  --active: #0CA4EA;
 }
 
 * {
@@ -58,6 +60,29 @@ a.link:hover, a.alt-link:hover {
   /*border-bottom: 1px solid var(--darkblue);*/
 }
 
+a.link > img {
+  height: 30px;
+}
+
+p.link {
+  cursor: pointer;
+}
+
+a.link .sticker {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: var(--red);
+  color: var(--white);
+  text-align: center;
+  font-size: 15px;
+  line-height: 22px;
+  vertical-align: middle;
+  position: absolute;
+  bottom: -7px;
+  left: -7px;
+}
+
 a.button {
   background: var(--white);
   text-align: center;
@@ -68,6 +93,20 @@ a.button {
   color: var(--darkblue);
   font-size: 18px;
   font-weight: 600;
+}
+
+a.button.main {
+  background: var(--active);
+  color: var(--white);
+}
+
+a.button.warning {
+  background: var(--red);
+  color: var(--white);
+}
+
+.red {
+  color: var(--red);
 }
 
 h1 {
@@ -125,8 +164,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .split-row {
+  gap: 10px;
   display: flex !important;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 
@@ -188,10 +229,15 @@ hr {
   border-color: var(--sectiongray);
 }
 
+.split-above {
+  margin-top: 140px;
+}
+
 .square-img {
   height: 18px;
   height: 18px;
 }
+
 
 .card {
   flex: 1;
@@ -207,6 +253,37 @@ hr {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+.list-item.shadow.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item.shadow.icon > img {
+  width: 70%;
+}
+
+.card.full-image {
+  position: relative;
+}
+
+.card.full-image > img {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.button {
+  z-index: 2;
 }
 
 .card > img {
@@ -235,8 +312,50 @@ hr {
   height: 500px;
 }
 
+.product-card {
+  display: flex;
+  justify-content: left;
+  height: 140px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.product-card .product-image {
+  height: 90%;
+  background: var(--sectiongray);
+  margin: 7px;
+}
+.product-card .product-image img {
+  height: 100%;
+}
+
+.product-content {
+  margin: 7px;
+  height: 90%;
+}
+
+.product-content h3 {
+  padding-top: 20px;
+}
+
+.product-content p {
+  padding-top: 5px;
+}
+
 .w-30 {
   min-width: 30%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.g-5 {
+  gap: 5px;
+}
+
+.g-10 {
+  gap: 10px;
 }
 
 .g-20 {
@@ -262,6 +381,11 @@ hr {
 .ai-center {
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.m-0 {
+  margin: 0 !important;
 }
 
 .mt-40 {

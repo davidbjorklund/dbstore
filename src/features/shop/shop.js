@@ -2,17 +2,23 @@ import React from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 
 import { Breadcrumbs } from '../../shared/components';
-import { Filter }  from './components';
+import { Filter }  from './components/filter/';
 
 import filters from './utils/filters.js';
 
 import "./shop.css";
 
 const Shop = (props) => {
-    const location = useLocation();
+    // Page for item shop
+    // Provides structure for filter and different types (all-items,women,men,most-wanted)
 
+    
+    const location = useLocation();
+    // boolean, page is "men", page is "women"
     let men = location.pathname.split("/").find((el)=>el === "men") != null;
     let women = location.pathname.split("/").find((el)=>el === "women") != null;
+
+    // Path for breadcrumbs
     const path = [
         {
             name:"Home",
@@ -22,25 +28,19 @@ const Shop = (props) => {
             active: !(men || women),
             name:"Browse Products",
             link:"/shop"
-        }
-    ];
-    if(men){
-        path.push({
+        },
+        ...(men) ? [{
             active: true,
             name:"Men",
             link:"/shop/men"
-        })
-    }
-    if(women){
-        path.push({
+        }] : [],
+        ...(women) ? [{
             active: true,
             name:"Women",
             link:"/shop/women"
-        })
-    }
+        }] : []
+    ];
 
-
-    
 
     return (
         <>

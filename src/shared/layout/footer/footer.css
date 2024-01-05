@@ -43,3 +43,22 @@
     padding: 20px 0;
     text-align: center;
 }
+
+@media(max-width: 1040px) {
+    .innerFooter {
+        flex-wrap: wrap;
+    }
+    #footer .homesection {
+        min-width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 780px){
+    .shop, .company, .support, .payment {
+        min-width: 160px;
+        max-width: 160px;
+    }
+}

@@ -1,24 +1,56 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+
 
 import "./header.css";
 
-const Header = (props) => {
+const Header = ({items}) => {
+    // Header section of every page
+
+    const [active, setActive] = useState(false);
+
+    const burgerClick = () => {
+        setActive(a => !a);
+    }
+
+    const closeMenu = () => {
+        setTimeout(() => {
+            setActive(_ => false);
+        }, 50);
+    }
+
     return (
         <div id="header">
             <div>
                 <Link to={"/"} className="link">DBStore</Link>
             </div>
-            <div className="links">
-                <Link to={"/shop"} className="link">Shop</Link>
+            <div className={active ? "links nav active" : "links nav"} onClick={()=>closeMenu()}>
+                <Link to={"/shop"} className="link">All items</Link>
                 <Link to={"/shop/most-wanted"} className="link">Most wanted</Link>
-                <Link to={"/shop/brands"} className="link">Brands</Link>
+                <Link to={"/shop/men"} className="link">Men's</Link>
+                <Link to={"/shop/women"} className="link">Women's</Link>
             </div>
-            <div>
-                <Link to={"/profile"} className="link">Profile</Link>
+            <div className="ai-center g-20">
+                <div className={active ? "burger open" : "burger"} onClick={()=>burgerClick()}>
+                    <div className="burger-bar burger-bar-1"></div>
+                    <div className="burger-bar burger-bar-2"></div>
+                    <div className="burger-bar burger-bar-3"></div>
+                </div>
+                <Link to={"/cart"} className="link ai-center g-10 cart">
+                    <img src={require("../../../assets/icons/cart-line-icon.png")} alt="Cart Icon" />
+                    { items.length !== 0 ? <span className="sticker">{items.length}</span> : null }
+                    <span className="cart-text">Cart</span>
+                </Link>
             </div>
         </div>
     );
 }
 
-export default Header;
+const mapStateToProps = (state) => {
+    return {
+        items: state.cartReducer.items,
+    }
+}
+
+export default connect(mapStateToProps)(Header);

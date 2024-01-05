@@ -11,3 +11,72 @@
 .links > .link {
     margin: 0 30px;
 }
+
+
+.burger {
+    display: none;
+    height: 20px;
+    width: 30px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .burger-bar {
+    height: 4px;
+    border-radius: 2px;
+    width: 30px;
+    position: absolute;
+    left: 0;
+    background: var(--darkblue);
+  }
+  
+  .burger-bar-1 {
+    top: 0px;
+  }
+  
+  .burger-bar-2 {
+    top: 8px;
+  }
+  
+  .burger-bar-3 {
+    top: 16px;
+  }
+  
+  @media(max-width: 1060px){
+    .burger {
+      display: block;
+    }
+    .burger.open .burger-bar-1 {
+        top: 10px;
+        transform: translateY(-50%) rotate(45deg);
+    }
+    .burger.open .burger-bar-2 {
+        display: none;
+    }
+    .burger.open .burger-bar-3 {
+        top: 10px;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+    .nav {
+      display: none;
+      position: absolute;
+      top: 87px;
+      left: 0;
+      right: 0;
+      padding: 10px 5vw 40px;
+      z-index: 10;
+      background: var(--white);
+      box-shadow: 0 4px 6px rgba(12, 14, 16, 0.2);
+    }
+    .nav a {
+      display: block;
+      padding: 8px 0;
+      margin: 15px 0;
+    }
+    .nav.active {
+      display: block;
+    }
+    .cart-text {
+      display: none;
+    }
+  }

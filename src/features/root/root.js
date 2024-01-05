@@ -6,13 +6,13 @@ import Footer from '../../shared/layout/footer';
 
 const Root = (props) => {
 
-
+    // Create structure for entire project
     return (
         <>
             <ScrollRestoration />
             <Header />
             <div id="main">
-                { <Outlet />  || <h1>ABC</h1> }
+                { <Outlet />  || <h1>DBStore</h1> }
             </div>
             <Footer />
         </>

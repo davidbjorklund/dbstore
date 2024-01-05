@@ -11,6 +11,11 @@
             "ga-2100-1a/desktop_GA-2100-1A1ER_01.jpg",
             "ga-2100-1a/desktop_GA-2100-1A1ER_03.jpg",
             "ga-2100-1a/desktop_GA-2100-1A1ER_04.jpg"
+        ],
+        "others": [
+            "ga-2100-2a",
+            "ga-2100-8a",
+            "ds-podium"
         ]
     },
     "ga-2100-2a": {
@@ -25,6 +30,11 @@
             "ga-2100-2a/GA-2100BWP-2AER_OR02_wristshot.jpg",
             "ga-2100-2a/GA-2100BWP-2AER_OR09_Bandview.jpg",
             "ga-2100-2a/GA-2100BWP-2AER_OR10_package.jpg"
+        ],
+        "others": [
+            "ga-2100-1a",
+            "ga-2100-8a",
+            "ds-podium"
         ]
     },
     "ga-2100-8a": {
@@ -39,6 +49,11 @@
             "ga-2100-8a/GA-2100FF-8AER_OR03_sideview_right.jpg",
             "ga-2100-8a/GA-2100FF-8AER_OR14_beautyshot2.jpg",
             "ga-2100-8a/GA-2100FF-8AER_OR18_caseback.jpg"
+        ],
+        "others": [
+            "ga-2100-1a",
+            "ga-2100-2a",
+            "ds-podium"
         ]
     },
     "gma-s2100-1a": {
@@ -53,6 +68,11 @@
             "gma-s2100-1a/desktop_GMA-S2100_Desktop_02.jpg",
             "gma-s2100-1a/GMA-S2100-1AER_OR13_beautyshot1.jpg",
             "gma-s2100-1a/desktop_GMA-S2100_Desktop_03.jpg"
+        ],
+        "others": [
+            "gma-s2100-4a",
+            "gma-s2100-7a",
+            "nj0151-53m"
         ]
     },
     "gma-s2100-4a": {
@@ -67,6 +87,11 @@
             "gma-s2100-4a/GMA-S2100-4AER_OR02_wristshot.jpg",
             "gma-s2100-4a/GMA-S2100-4AER_OR13_beautyshot1.jpg",
             "gma-s2100-4a/GMA-S2100-4AER_OR03_sideview_right.jpg"
+        ],
+        "others": [
+            "gma-s2100-1a",
+            "gma-s2100-7a",
+            "nj0151-53m"
         ]
     },
     "gma-s2100-7a": {
@@ -81,11 +106,16 @@
             "gma-s2100-7a/GMA-S2100SK-7AER_OR14_beautyshot2.jpg",
             "gma-s2100-7a/GMA-S2100SK-7AER_OR13_beautyshot1.jpg",
             "gma-s2100-7a/GMA-S2100SK-7AER_OR09_Bandview.jpg"
+        ],
+        "others": [
+            "gma-s2100-1a",
+            "gma-s2100-4a",
+            "nj0151-53m"
         ]
     },
     "sje089": {
         "id": "sje089",
-        "name": "Seiko SJE089",
+        "name": "King Seiko SJE089",
         "price": 36500,
         "gender": "men",
         "brand": "Seiko",
@@ -95,11 +125,16 @@
             "sje089/SJE089_01.jpg",
             "sje089/SJE089_02.jpg",
             "sje089/SJE089_03.jpg"
+        ],
+        "others": [
+            "bm7100-59h",
+            "sje091",
+            "classic_dream"
         ]
     },
     "sje091": {
         "id": "sje091",
-        "name": "Seiko SJE091",
+        "name": "King Seiko SJE091",
         "price": 36500,
         "gender": "men",
         "brand": "Seiko",
@@ -109,11 +144,16 @@
             "sje091/SJE091_01.jpg",
             "sje091/SJE091_02.jpg",
             "sje091/SJE091_03.jpg"
+        ],
+        "others": [
+            "bm7100-59h",
+            "sje089",
+            "spb389"
         ]
     },
     "spb389": {
         "id": "spb389",
-        "name": "Seiko SPB389",
+        "name": "King Seiko SPB389",
         "price": 19500,
         "gender": "men",
         "brand": "Seiko",
@@ -123,6 +163,410 @@
             "spb389/SPB389_01.png",
             "spb389/SPB389_02.png",
             "spb389/SPB389_03.png"
+        ],
+        "others": [
+            "spb389",
+            "sje091",
+            "bm7100-59h"
+        ]
+    },
+    "srpb77": {
+        "id": "srpb77",
+        "name": "Seiko Presage SRPB77",
+        "price": 5000,
+        "gender": "men",
+        "brand": "Seiko",
+        "category": "classic",
+        "images": [
+            "srpb77/SRPB77.png",
+            "srpb77/SRPB77_01.png",
+            "srpb77/SRPB77_02.png",
+            "srpb77/SRPB77_03.jpg"
+        ],
+        "others": [
+            "ac04003w",
+            "ac08004d",
+            "aw0081-54l"
+        ]
+    },
+    "srpf47": {
+        "id": "srpf47",
+        "name": "Seiko Presage SRPF47",
+        "price": 5700,
+        "gender": "women",
+        "brand": "Seiko",
+        "category": "classic",
+        "images": [
+            "srpf47/SRPF47.png",
+            "srpf47/SRPF47_01.png",
+            "srpf47/SRPF47_02.png",
+            "srpf47/SRPF47_03.jpg"
+        ],
+        "others": [
+            "sre007",
+            "fe2100-51e",
+            "sz45003w"
+        ]
+    },
+    "sre007": {
+        "id": "sre007",
+        "name": "Seiko Presage SRE007",
+        "price": 5700,
+        "gender": "women",
+        "brand": "Seiko",
+        "category": "classic",
+        "images": [
+            "sre007/SRE007.png",
+            "sre007/SRE007_01.jpg",
+            "sre007/SRE007_02.jpg",
+            "sre007/SRE007_03.png"
+        ],
+        "others": [
+            "srpf47",
+            "fe2100-51e",
+            "sz45003w"
+        ]
+    },
+    "classic_dream": {
+        "id": "classic_dream",
+        "name": "Tissot Classic Dream",
+        "price": 3895,
+        "gender": "men",
+        "brand": "Tissot",
+        "category": "classic",
+        "images": [
+            "classic_dream/classic_dream.png",
+            "classic_dream/classic_dream_01.png",
+            "classic_dream/classic_dream_02.png",
+            "classic_dream/classic_dream_03.png"
+        ],
+        "others": [
+            "bm7100-59h",
+            "sje091",
+            "sje089"
+        ]
+    },
+    "prx": {
+        "id": "prx",
+        "name": "Tissot PRX",
+        "price": 4795,
+        "gender": "men",
+        "brand": "Tissot",
+        "category": "classic",
+        "images": [
+            "prx/prx.png",
+            "prx/prx_01.png",
+            "prx/prx_02.png",
+            "prx/prx_03.png"
+        ],
+        "others": [
+            "aw0081-54l",
+            "ac08004d",
+            "aquarider-10222"
+        ]
+    },
+    "everytime": {
+        "id": "everytime",
+        "name": "Tissot Everytime",
+        "price": 3795,
+        "gender": "women",
+        "brand": "Tissot",
+        "category": "classic",
+        "images": [
+            "everytime/EVERYTIME.png",
+            "everytime/EVERYTIME_01.png",
+            "everytime/EVERYTIME_02.png",
+            "everytime/EVERYTIME_03.png"
+        ],
+        "others": [
+            "ra-qc1701l",
+            "nj0151-53m",
+            "ra-ac0009s"
+        ]
+    },
+    "ra-ap0005b": {
+        "id": "ra-ap0005b",
+        "name": "Orient RA-AP0005B",
+        "price": 2469,
+        "gender": "men",
+        "brand": "Orient",
+        "category": "classic",
+        "images": [
+            "ra-ap0005b/RA-AP0005B.png",
+            "ra-ap0005b/RA-AP0005B_01.png",
+            "ra-ap0005b/RA-AP0005B_02.png",
+            "ra-ap0005b/RA-AP0005B_03.png"
+        ],
+        "others": [
+            "srpb77",
+            "ac04003w",
+            "aw0081-54l"
+        ]
+    },
+    "ac08004d": {
+        "id": "ac08004d",
+        "name": "Orient AC08004D",
+        "price": 2999,
+        "gender": "men",
+        "brand": "Orient",
+        "category": "classic",
+        "images": [
+            "ac08004d/AC08004D.png",
+            "ac08004d/AC08004D_01.png",
+            "ac08004d/AC08004D_02.png",
+            "ac08004d/AC08004D_03.png"
+        ],
+        "others": [
+            "srpb77",
+            "ac04003w",
+            "aw0081-54l"
+        ]
+    },
+    "ra-ac0009s": {
+        "id": "ra-ac0009s",
+        "name": "Orient RA-AC0009S",
+        "price": 2795,
+        "gender": "women",
+        "brand": "Orient",
+        "category": "classic",
+        "images": [
+            "ra-ac0009s/RA-AC0009S.png",
+            "ra-ac0009s/RA-AC0009S_01.png",
+            "ra-ac0009s/RA-AC0009S_02.png",
+            "ra-ac0009s/RA-AC0009S_03.png"
+        ],
+        "others": [
+            "everytime",
+            "ra-qc1701l",
+            "nj0151-53m"
+        ]
+    },
+    "ac04003w": {
+        "id": "ac04003w",
+        "name": "Orient AC04003W",
+        "price": 2999,
+        "gender": "men",
+        "brand": "Orient",
+        "category": "classic",
+        "images": [
+            "ac04003w/AC04003W.png",
+            "ac04003w/AC04003W_01.png",
+            "ac04003w/AC04003W_02.png",
+            "ac04003w/AC04003W_03.png"
+        ],
+        "others": [
+            "srpb77",
+            "ac08004d",
+            "aw0081-54l"
+        ]
+    },
+    "ra-kv0404b": {
+        "id": "ra-kv0404b",
+        "name": "Orient RA-KV0404B",
+        "price": 2399,
+        "gender": "men",
+        "brand": "Orient",
+        "category": "classic",
+        "images": [
+            "ra-kv0404b/RA-KV0404B.png",
+            "ra-kv0404b/RA-KV0404B_01.png",
+            "ra-kv0404b/RA-KV0404B_02.png",
+            "ra-kv0404b/RA-KV0404B_03.png"
+        ],
+        "others": [
+            "classics-10217",
+            "aquarider-10222",
+            "ds-podium"
+        ]
+    },
+    "sz45003w": {
+        "id": "sz45003w",
+        "name": "Orient SZ45003W",
+        "price": 2499,
+        "gender": "women",
+        "brand": "Orient",
+        "category": "classic",
+        "images": [
+            "sz45003w/SZ45003W.png",
+            "sz45003w/SZ45003W_01.png",
+            "sz45003w/SZ45003W_02.png",
+            "sz45003w/SZ45003W_03.png"
+        ],
+        "others": [
+            "sre007",
+            "srpf47",
+            "fe2100-51e"
+        ]
+    },
+    "ra-qc1701l": {
+        "id": "ra-qc1701l",
+        "name": "Orient RA-QC1701L",
+        "price": 2999,
+        "gender": "women",
+        "brand": "Orient",
+        "category": "classic",
+        "images": [
+            "ra-qc1701l/RA-QC1701L.png",
+            "ra-qc1701l/RA-QC1701L_01.png",
+            "ra-qc1701l/RA-QC1701L_02.png",
+            "ra-qc1701l/RA-QC1701L_03.png"
+        ],
+        "others": [
+            "everytime",
+            "nj0151-53m",
+            "ra-ac0009s"
+        ]
+    },
+    "aw0081-54l": {
+        "id": "aw0081-54l",
+        "name": "Citizen AW0081-54L",
+        "price": 2799,
+        "gender": "men",
+        "brand": "Citizen",
+        "category": "classic",
+        "images": [
+            "aw0081-54l/AW0081-54L.png",
+            "aw0081-54l/AW0081-54L_01.png",
+            "aw0081-54l/AW0081-54L_02.png",
+            "aw0081-54l/AW0081-54L_03.png"
+        ],
+        "others": [
+            "srpb77",
+            "ac08004d",
+            "ac04003w"
+        ]
+    },
+    "bm7100-59h": {
+        "id": "bm7100-59h",
+        "name": "Citizen BM7100-59H",
+        "price": 4299,
+        "gender": "men",
+        "brand": "Citizen",
+        "category": "classic",
+        "images": [
+            "bm7100-59h/BM7100-59H.png",
+            "bm7100-59h/BM7100-59H_01.png",
+            "bm7100-59h/BM7100-59H_02.png",
+            "bm7100-59h/BM7100-59H_03.png"
+        ],
+        "others": [
+            "sje091",
+            "sje089",
+            "classic_dream"
+        ]
+    },
+    "nj0151-53m": {
+        "id": "nj0151-53m",
+        "name": "Citizen NJ0151-53M",
+        "price": 4599,
+        "gender": "women",
+        "brand": "Citizen",
+        "category": "classic",
+        "images": [
+            "nj0151-53m/NJ0151-53M.png",
+            "nj0151-53m/NJ0151-53M_01.png",
+            "nj0151-53m/NJ0151-53M_02.png",
+            "nj0151-53m/NJ0151-53M_03.png"
+        ],
+        "others": [
+            "everytime",
+            "ra-qc1701l",
+            "ra-ac0009s"
+        ]
+    },
+    "fe2100-51e": {
+        "id": "fe2100-51e",
+        "name": "Citizen FE2100-51E",
+        "price": 3299,
+        "gender": "women",
+        "brand": "Citizen",
+        "category": "classic",
+        "images": [
+            "fe2100-51e/FE2100-51E.png",
+            "fe2100-51e/FE2100-51E_01.png",
+            "fe2100-51e/FE2100-51E_02.png",
+            "fe2100-51e/FE2100-51E_03.png"
+        ],
+        "others": [
+            "sre007",
+            "srpf47",
+            "sz45003w"
+        ]
+    },
+    "classics-10217": {
+        "id": "classics-10217",
+        "name": "Claude Bernard Classics 10217",
+        "price": 2699,
+        "gender": "men",
+        "brand": "Claude Bernard",
+        "category": "classic",
+        "images": [
+            "classics-10217/classics-10217.png",
+            "classics-10217/classics-10217_01.png",
+            "classics-10217/classics-10217_02.png",
+            "classics-10217/classics-10217_03.png"
+        ],
+        "others": [
+            "ra-kv0404b",
+            "aquarider-10222",
+            "ds-podium"
+        ]
+    },
+    "aquarider-10222": {
+        "id": "aquarider-10222",
+        "name": "Claude Bernard Aquarider 10222",
+        "price": 3899,
+        "gender": "men",
+        "brand": "Claude Bernard",
+        "category": "classic",
+        "images": [
+            "aquarider-10222/aquarider-10222.png",
+            "aquarider-10222/aquarider-10222_01.png",
+            "aquarider-10222/aquarider-10222_02.png",
+            "aquarider-10222/aquarider-10222_03.png"
+        ],
+        "others": [
+            "classics-10217",
+            "ra-kv0404b",
+            "ds-podium"
+        ]
+    },
+    "ds-8-powermatic": {
+        "id": "ds-8-powermatic",
+        "name": "Certina DS-8 Powermatic",
+        "price": 8300,
+        "gender": "men",
+        "brand": "Certina",
+        "category": "classic",
+        "images": [
+            "ds-8-powermatic/ds-8-powermatic.png",
+            "ds-8-powermatic/ds-8-powermatic_01.png",
+            "ds-8-powermatic/ds-8-powermatic_02.png",
+            "ds-8-powermatic/ds-8-powermatic_03.png"
+        ],
+        "others": [
+            "ds-podium",
+            "ra-ap0005b",
+            "ac08004d"
+        ]
+    },
+    "ds-podium": {
+        "id": "ds-podium",
+        "name": "Certina DS Podium",
+        "price": 6100,
+        "gender": "men",
+        "brand": "Certina",
+        "category": "classic",
+        "images": [
+            "ds-podium/ds-podium.png",
+            "ds-podium/ds-podium_01.png",
+            "ds-podium/ds-podium_02.png",
+            "ds-podium/ds-podium_03.png"
+        ],
+        "others": [
+            "classics-10217",
+            "ra-kv0404b",
+            "aquarider-10222"
         ]
     }
 }

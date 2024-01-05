@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 import "./footer.css";
 
 const Footer = (props) => {
+    // Footer section of every page
+
     return (
         <div id="footer">
-            <div className="innerFooter">
+            <div className="innerFooter g-20">
                 <div className="homesection">
                     <Link to={"/"} className="link">DBStore</Link>
                     <p>Specializes in providing high-quality, stylish products for your wardrobe.</p>
@@ -23,17 +25,17 @@ const Footer = (props) => {
                 <div className="company">
                     <h5>Company</h5>
                     <ul>
-                        <li><Link to={"/about-us"} className="alt-link">About Us</Link></li>
-                        <li><Link to={"/contact-us"} className="alt-link">Contact Us</Link></li>
-                        <li><Link to={"/affiliates"} className="alt-link">Affiliates</Link></li>
+                        <li><Link to={"/"} className="alt-link">About Us</Link></li>
+                        <li><Link to={"/"} className="alt-link">Contact Us</Link></li>
+                        <li><Link to={"/"} className="alt-link">Affiliates</Link></li>
                     </ul>
                 </div>
                 <div className="support">
                     <h5>Support</h5>
                     <ul>
-                        <li><Link to={"/faq"} className="alt-link">FAQs</Link></li>
-                        <li><Link to={"/cookie-policy"} className="alt-link">Cookie Policy</Link></li>
-                        <li><Link to={"/terms-of-use"} className="alt-link">Terms of Use</Link></li>
+                        <li><Link to={"/"} className="alt-link">FAQs</Link></li>
+                        <li><Link to={"/"} className="alt-link">Cookie Policy</Link></li>
+                        <li><Link to={"/"} className="alt-link">Terms of Use</Link></li>
                     </ul>
                 </div>
                 <div className="payment">
@@ -46,7 +48,7 @@ const Footer = (props) => {
                 </div>
             </div>
             <div className="credits">
-                <p>Copyright &copy;2023 DBStore. By David Björklund.</p>
+                <p>DBStore - Copyright &copy;2024 David Björklund.</p>
             </div>
         </div>
     );
