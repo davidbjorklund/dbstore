@@ -93,7 +93,7 @@ const Item = ({ purchaseItem, increasePrice }) => {
                     <div className="row mt-20">
                         <div className="db-12">
                             <div className="list-row m-0 jc-left g-20 ai-center">
-                                <Link to="/shop" className="button main" onClick={(e)=>purchase(e)} disabled={bought}>
+                                <Link to="/dbstore/shop" className="button main" onClick={(e)=>purchase(e)} disabled={bought}>
                                     <h4>Add to cart</h4>
                                 </Link>
                                 <h2 className="m-0">{item["price"]}:-</h2>

@@ -9,7 +9,7 @@ const Card = ({item, disabled}) => {
 
     return (
         <div key={item["name"]} className="db-4 gap-20 mb-40">
-            <Link to={`/item/${item["id"]}`}>
+            <Link to={`/dbstore/item/${item["id"]}`}>
                 <div className="card card-large shadow">
                     <img src={image} alt={item["name"]} />
                 </div>

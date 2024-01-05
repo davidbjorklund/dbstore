@@ -9,7 +9,7 @@ const ListItems = ({ list }) => {
     if(list.length === 0){
         return (
         <div className="db-4 gap-20 mb-40">
-            <Link to="/shop">
+            <Link to="/dbstore/shop">
                 <div className="card-text">
                     <h4>No Results</h4>
                 </div>

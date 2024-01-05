@@ -65,7 +65,7 @@ const Home = () => {
                     <div className="banner-cover"></div>
                     <Controls up={upSlide} down={downSlide} />
                     <h1 className="light">Level up your style with our summer collection</h1>
-                    <Link to="/shop" className="button">
+                    <Link to="/dbstore/shop" className="button">
                         Shop Now
                     </Link>
                     <Slides slideCount={slideCount} currentSlide={currentSlide} click={fixSlide}/>
@@ -127,7 +127,7 @@ const Home = () => {
                 <div className="list-row g-20 jc-left">
                     <div className="db-3 gap-20">
                         <div className="card card-small shadow full-image">
-                            <Link to="/shop/most-wanted" className="button split-row ai-center">
+                            <Link to="/dbstore/shop/most-wanted" className="button split-row ai-center">
                                 <h4>Best Seller</h4>
                                 <img className="square-img" src={require("../../assets/icons/angle-right-grey.svg")} alt="Right arrow angle icon" />
                             </Link>
@@ -136,7 +136,7 @@ const Home = () => {
                     </div>
                     <div className="db-3 gap-20">
                         <div className="card card-small shadow full-image">
-                            <Link to="/shop/men" className="button split-row ai-center">
+                            <Link to="/dbstore/shop/men" className="button split-row ai-center">
                                 <h4>Men's Watches</h4>
                                 <img className="square-img" src={require("../../assets/icons/angle-right-grey.svg")} alt="Right arrow angle icon" />
                             </Link>
@@ -145,7 +145,7 @@ const Home = () => {
                     </div>
                     <div className="db-3 gap-20">
                         <div className="card card-small shadow full-image">
-                            <Link to="/shop/women" className="button split-row ai-center">
+                            <Link to="/dbstore/shop/women" className="button split-row ai-center">
                                 <h4>Women's Watches</h4>
                                 <img className="square-img" src={require("../../assets/icons/angle-right-grey.svg")} alt="Right arrow angle icon" />
                             </Link>
@@ -154,7 +154,7 @@ const Home = () => {
                     </div>
                     <div className="db-3 gap-20">
                         <div className="card card-small shadow full-image">
-                            <Link to="/shop/" className="button split-row ai-center">
+                            <Link to="/dbstore/shop/" className="button split-row ai-center">
                                 <h4>All Items</h4>
                                 <img className="square-img" src={require("../../assets/icons/angle-right-grey.svg")} alt="Right arrow angle icon" />
                             </Link>

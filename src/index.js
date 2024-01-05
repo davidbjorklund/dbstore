@@ -51,42 +51,42 @@ import Item from './features/item/';
 // Routes for pages in project
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/dbstore",
     element: <Root />,
     errorElement: <Error />,
     children: [
       {
-        path: "/",
+        path: "/dbstore",
         element: <Home />,
       },
       {
-        path: "/shop",
+        path: "/dbstore/shop",
         element: <Shop />,
         children: [
           {
-            path: "/shop/",
+            path: "/dbstore/shop/",
             element: <AllItems />
           },
           {
-            path: "/shop/most-wanted",
+            path: "/dbstore/shop/most-wanted",
             element: <MostWanted />
           },
           {
-            path: "/shop/women",
+            path: "/dbstore/shop/women",
             element: <Women />
           },
           {
-            path: "/shop/men",
+            path: "/dbstore/shop/men",
             element: <Men />
           },
         ]
       },
       {
-        path: "/cart",
+        path: "/dbstore/cart",
         element: <Cart />
       },
       {
-        path: "/item/:id",
+        path: "/dbstore/item/:id",
         element: <Item />,
       },
     ]

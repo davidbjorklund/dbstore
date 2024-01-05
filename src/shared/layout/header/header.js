@@ -23,13 +23,13 @@ const Header = ({items}) => {
     return (
         <div id="header">
             <div>
-                <Link to={"/"} className="link">DBStore</Link>
+                <Link to={"/dbstore/"} className="link">DBStore</Link>
             </div>
             <div className={active ? "links nav active" : "links nav"} onClick={()=>closeMenu()}>
-                <Link to={"/shop"} className="link">All items</Link>
-                <Link to={"/shop/most-wanted"} className="link">Most wanted</Link>
-                <Link to={"/shop/men"} className="link">Men's</Link>
-                <Link to={"/shop/women"} className="link">Women's</Link>
+                <Link to={"/dbstore/shop"} className="link">All items</Link>
+                <Link to={"/dbstore/shop/most-wanted"} className="link">Most wanted</Link>
+                <Link to={"/dbstore/shop/men"} className="link">Men's</Link>
+                <Link to={"/dbstore/shop/women"} className="link">Women's</Link>
             </div>
             <div className="ai-center g-20">
                 <div className={active ? "burger open" : "burger"} onClick={()=>burgerClick()}>
@@ -37,7 +37,7 @@ const Header = ({items}) => {
                     <div className="burger-bar burger-bar-2"></div>
                     <div className="burger-bar burger-bar-3"></div>
                 </div>
-                <Link to={"/cart"} className="link ai-center g-10 cart">
+                <Link to={"/dbstore/cart"} className="link ai-center g-10 cart">
                     <img src={require("../../../assets/icons/cart-line-icon.png")} alt="Cart Icon" />
                     { items.length !== 0 ? <span className="sticker">{items.length}</span> : null }
                     <span className="cart-text">Cart</span>
