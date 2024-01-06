@@ -6,7 +6,7 @@ export default [
             {
                 type: "subdir",
                 name: "Women",
-                link: "/shop/women",
+                link: "/dbstore/shop/women",
                 children: [
                     {
                         type: "checkbox",
@@ -27,7 +27,7 @@ export default [
             {
                 type: "subdir",
                 name: "Men",
-                link: "/shop/men",
+                link: "/dbstore/shop/men",
                 children: [
                     {
                         type: "checkbox",
