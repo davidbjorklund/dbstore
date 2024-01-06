@@ -29,22 +29,22 @@ const Item = ({ purchaseItem, increasePrice }) => {
     useEffect(()=>{
         let exists = Object.entries(items).find(([item_name,_]) => item_name === id) != null;
         if(!exists){
-            navigate("/shop/")
+            navigate("/dbstore/shop/")
         }
         setItem(_ => items[id]);
         changeImage(0);
     
-    }, []);
+    }, [id]);
     
 
     const path = [
         {
             name:"Browse Products",
-            link:"/shop"
+            link:"/dbstore/shop"
         },
         {
             name:item["gender"],
-            link:"/shop/"+item["gender"]
+            link:"/dbstore/shop/"+item["gender"]
         },
         {
             active:true,
@@ -114,16 +114,18 @@ const Item = ({ purchaseItem, increasePrice }) => {
                     {
                         item.others.map((nextId, i) => 
                             <div key={i} className="db-4 gap-20">
-                                <div className="card card-large shadow">
-                                    <img src={folder("./"+items[nextId]["images"][0])} alt={items[nextId]["name"]} />
-                                </div>
-                                <div className="card-text">
-                                    <div className="split-row">
-                                        <h4>{items[nextId]["name"]}</h4>
-                                        <h3>{items[nextId]["price"]}:-</h3>
+                                <Link to={"/dbstore/item/"+items[nextId]["id"]}>
+                                    <div className="card card-large shadow">
+                                        <img src={folder("./"+items[nextId]["images"][0])} alt={items[nextId]["name"]} />
                                     </div>
-                                </div>
-                                <p className="cap">{items[nextId]["gender"]}</p>
+                                    <div className="card-text">
+                                        <div className="split-row">
+                                            <h4>{items[nextId]["name"]}</h4>
+                                            <h3>{items[nextId]["price"]}:-</h3>
+                                        </div>
+                                    </div>
+                                    <p className="cap">{items[nextId]["gender"]}</p>
+                                </Link>
                             </div>
                         )
                     }

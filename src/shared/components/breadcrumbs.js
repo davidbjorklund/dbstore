@@ -12,12 +12,12 @@ const Breadcrumbs = ({path}) => {
     const path = [
         {
             name:"Home",
-            link:"/"
+            link:"/dbstore/"
         },
         {
             active: true,
             name:"Browse Products",
-            link:"/shop"
+            link:"/dbstore/shop"
         },
     } 
     <Breadcrumbs path={path} />

@@ -22,22 +22,22 @@ const Shop = (props) => {
     const path = [
         {
             name:"Home",
-            link:"/"
+            link:"/dbstore/"
         },
         {
             active: !(men || women),
             name:"Browse Products",
-            link:"/shop"
+            link:"/dbstore/shop"
         },
         ...(men) ? [{
             active: true,
             name:"Men",
-            link:"/shop/men"
+            link:"/dbstore/shop/men"
         }] : [],
         ...(women) ? [{
             active: true,
             name:"Women",
-            link:"/shop/women"
+            link:"/dbstore/shop/women"
         }] : []
     ];
 

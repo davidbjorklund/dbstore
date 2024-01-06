@@ -169,16 +169,18 @@ const Home = () => {
                     {
                         items.map((item, i) =>
                             <div key={i} className="db-4 gap-20">
-                                <div className="card card-large shadow">
-                                    <img src={folder("./products/"+item["images"][0])} alt={item["name"]} />
-                                </div>
-                                <div className="card-text">
-                                    <div className="split-row">
-                                        <h4>{item["name"]}</h4>
-                                        <h3>{item["price"]}:-</h3>
+                                <Link to={"/dbstore/item/"+item["id"]}>
+                                    <div className="card card-large shadow">
+                                        <img src={folder("./products/"+item["images"][0])} alt={item["name"]} />
                                     </div>
-                                </div>
-                                <p className="cap">{item["gender"]}</p>
+                                    <div className="card-text">
+                                        <div className="split-row">
+                                            <h4>{item["name"]}</h4>
+                                            <h3>{item["price"]}:-</h3>
+                                        </div>
+                                    </div>
+                                    <p className="cap">{item["gender"]}</p>
+                                </Link>
                             </div>
                         )
                     }
