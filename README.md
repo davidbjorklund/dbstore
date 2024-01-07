@@ -1,7 +1,7 @@
 # DBStore, a fictional ecommerce
 An ecommerce webapp made using ReactJS and Redux.
 
-A published version of this project is hosted on GitHub Pages at [https://davidbjorklund.github.io/dbstore](https://github.github.io/dbstore).
+A published version of this project is hosted on GitHub Pages at [https://davidbjorklund.github.io/dbstore](https://davidbjorklund.github.io/dbstore).
 
 ## To run this project locally
 ### Prerequisites:
